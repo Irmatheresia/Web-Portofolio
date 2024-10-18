@@ -1,0 +1,16 @@
+.custom-bg {
+    background-color: #387c8a;
+
+}
+.titik {
+    list-style-type: none;
+    padding: 0; 
+    margin: 15px; 
+}
+.custom-name{
+    color: azure;
+    margin: 20px;
+}
+.custom-clr{
+    color: white;
+}

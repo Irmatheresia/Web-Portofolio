@@ -1,0 +1,42 @@
+.home-container {
+    height: calc(1080px - 56px); 
+    background-image: url('/public/assets/bgw.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 56px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+.fade-in-up {
+    animation: slideInUp 1s ease forwards; 
+}
+
+
+@media (max-width: 767px) {
+    .home-container {
+        height: calc(720px - 70px); 
+        padding-top: 70px; 
+    }
+
+    .home-container h1 {
+        font-size: 40px; 
+    }
+
+    .home-container p {
+        font-size: 20px; 
+    }
+}

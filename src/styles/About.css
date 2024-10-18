@@ -1,0 +1,41 @@
+.nav-name {
+    padding-left: 20px; 
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.about-name {
+    padding: 20px;
+}
+
+.img-profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .nav-name {
+        padding-left: 100px;
+    }
+
+    .nav-item {
+        padding-left: 400px;
+    }
+
+    .about-name {
+        padding-left: 90px;
+        padding-top: 80px;
+    }
+    
+    .img-profile {
+        justify-content: flex-end;
+    }
+}
