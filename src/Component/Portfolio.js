@@ -3,11 +3,32 @@ import { Container, Row, Col, Button, Card, Navbar, Nav } from 'react-bootstrap'
 import '../styles/Portfolio.css';
 import { Link } from 'react-router-dom';
 
+const basename = "/Web-Portofolio";
 const projects = [
-    { img: process.env.PUBLIC_URL + "/assets/Medical.png", title: "Medical Center", subtitle: "Mobile application developed with Dart. Application that can be used to check schedules and take a queue for consultation with a doctor.", github: "https://github.com/Irmatheresia/Medical-Center.git" },
-    { img: process.env.PUBLIC_URL + "/assets/healsou.png", title: "HealSou", subtitle: "An application designed with mobile-based Figma, a mental health application that has features for online consultations and also contains various meditations and calming music.", github: "" },
-    { img: process.env.PUBLIC_URL + "/assets/kopi.png", title: "Kopi Rasa", subtitle: "An application designed with Figma which is website-based, a website that sells coffee products where there are features about various types of the best coffee products.", github: "" },
-    { img: process.env.PUBLIC_URL + "/assets/resto.png", title: "Andromeda Resto", subtitle: "An application designed with mobile-based Figma, an application for ordering food at a restaurant", github: "" }
+    { 
+        img: `${process.env.PUBLIC_URL}${basename}/assets/Medical.png`, 
+        title: "Medical Center", 
+        subtitle: "Mobile application developed with Dart. Application that can be used to check schedules and take a queue for consultation with a doctor.", 
+        github: "https://github.com/Irmatheresia/Medical-Center.git" 
+    },
+    { 
+        img: `${process.env.PUBLIC_URL}${basename}/assets/healsou.png`, 
+        title: "HealSou", 
+        subtitle: "An application designed with mobile-based Figma, a mental health application that has features for online consultations and also contains various meditations and calming music.", 
+        github: "" 
+    },
+    { 
+        img: `${process.env.PUBLIC_URL}${basename}/assets/kopi.png`, 
+        title: "Kopi Rasa", 
+        subtitle: "An application designed with Figma which is website-based, a website that sells coffee products where there are features about various types of the best coffee products.", 
+        github: "" 
+    },
+    { 
+        img: `${process.env.PUBLIC_URL}${basename}/assets/resto.png`, 
+        title: "Andromeda Resto", 
+        subtitle: "An application designed with mobile-based Figma, an application for ordering food at a restaurant", 
+        github: "" 
+    }
 ];
 
 const Portfolio = () => {
