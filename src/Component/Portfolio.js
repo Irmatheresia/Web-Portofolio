@@ -18,7 +18,7 @@ const projects = [
         github: "" 
     },
     { 
-        img: `${process.env.PUBLIC_URL}/assets/kopi.png`, 
+        img: `${process.env.PUBLIC_URL}/assets/Kopi.png`, 
         title: "Kopi Rasa", 
         subtitle: "An application designed with Figma which is website-based, a website that sells coffee products where there are features about various types of the best coffee products.", 
         github: "" 
