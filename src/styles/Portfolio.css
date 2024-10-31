@@ -47,8 +47,14 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
         transition: transform 0.2s; 
         overflow: hidden; 
+        text-wrap-style:balance ;
+        margin-left: auto;
+        margin-right: auto;
     }
     .image-col {
         width: 100%; 
     }
+    /* .portfolio-card-subtitle{
+        padding-left: 100px;
+    } */
 }

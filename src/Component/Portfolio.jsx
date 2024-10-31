@@ -62,8 +62,8 @@ const Portfolio = () => {
                                         </Col>
                                         <Col xs={8}>
                                             <Card.Body>
-                                                <Card.Title>{project.title}</Card.Title>
-                                                <Card.Text>{project.subtitle}</Card.Text>
+                                                <Card.Title className='portfolio-card-title text-center'>{project.title}</Card.Title>
+                                                <Card.Text className='portfolio-card-subtitle no-wrap text-justify' >{project.subtitle}</Card.Text>
                                                 <Button href={project.github} target="_blank" variant="primary">View on GitHub</Button>
                                             </Card.Body>
                                         </Col>
